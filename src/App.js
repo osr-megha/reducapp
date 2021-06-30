@@ -23,9 +23,9 @@ function App() {
     <h4>using React and Redux</h4>
     
     <div className="quantity">
-      <a className="quantity__minus" title="Decrement" onClick={ () => dispatch(decNum())}><span> - </span></a>
+      <button className="quantity__minus" title="Decrement" onClick={ () => dispatch(decNum())}><span> - </span></button>
       <input name="quantity" type="text" className="quantity__input" value={myState}/>
-      <a className="quantity__plus" title="Increment" onClick={ () => dispatch(incNum())}><span> + </span></a>
+      <button className="quantity__plus" title="Increment" onClick={ () => dispatch(incNum())}><span> + </span></button>
     </div>
 
         </div>
